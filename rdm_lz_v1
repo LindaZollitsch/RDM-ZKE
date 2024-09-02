@@ -122,9 +122,6 @@ draw("@0", `@input`)
 
 <div style="page-break-after: always;"></div>
 
-## Please be nice!
-
-
 
 ## Goals today
 
@@ -139,31 +136,14 @@ At the end of the workshop you should…
 <div style="float:left; width:60%;">
   <p>
 
-- have a basic idea of the general concept of RDM and know some important related terms.
-
-- can describe what research data and research data management is.
-
 - can describe the research data lifecycle.
 
-- can describe the FAIR-principles.
-
-- can recall some important rules in regard of naming files and folders.
+- can explain the importance of FAIR.
 
 - can explain the importance of documentation and can describe what metadata are.
 
 - can identify and assess data formats.
 
-- can distinguish back up and long-term storage.
-
-- can describe what a DMP is.
-
-- have heard of requirements of funders & other important players.
-
-- know RDM related CAU contacts.
-
-- had some time to exchange with peers.
-
-- hopefully also had some fun!
 
 </p>
 
@@ -176,84 +156,26 @@ At the end of the workshop you should…
 
 <div style="page-break-after: always;"></div>
 
-## Agenda
 
-Let us have a look at our workload for today:
-
-<div style="float:left; width:60%;">
-  <p>
-
-- Research data and research data management
-- Research data lifecycle
-- FAIR principles
-- Data organisation
-
-  ***LUNCH BREAK***
-
-- Documentation & metadata
-- Data formats
-- Back up & long-term storage
-- Open X
-- Data publication
-- Data management plan (DMP)
-- RDM related organisations & funder requirements
-- RDM @ CAU
-
-</p>
-
-</div>
-
-<div style="float:right; width:30%;">
-  <img src="images/Agenda.jpg" alt="women">
-  <sub><span style="text-align: right;">Source: Pixabay</span></sub>
-</div>
-
-<div style="page-break-after: always;"></div>
-
-## Research data and research data management
+## Research data management
 
 ### Research Data
 
 {{0-1}}
 ********************************************************************************
 
-><big>**What is reserach data?**</big>
->![image](images\kurzberichte.png)<!--
-style="width: 20%; max-width: 800px; float:right"
-title="puzzle"
-onclick="alert('Let´s work together!');"
--->
->
->>Today you are supposed to learn something about research data management.
->>
->>**What do you think**: What are research data? Collect as many examples for research data as you can think of.
->>
->>https://answergarden.ch/2861448
----
-
-********************************************************************************
-
-{{1-2}}
-********************************************************************************
-
-<iframe src="https://answergarden.ch/2861448" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-{{2}}
-**********
 What is research data?
 ---
 
+{{1}}
+********************************************************************************
 > _‘In short data means whatever is necessary to validate or reproduce your research findings, or to gain a richer understanding of them.’_
 >
 >[University of Edinburgh Research Data Service](https://www.ed.ac.uk/information-services/research-support/research-data-service/research-data-management)
 
 **********
 
-{{3}}
+{{2}}
 ***********
 > _‘Any information you use in your research.‘_
 >
@@ -261,7 +183,7 @@ What is research data?
 
 ************
 
-{{4}}
+{{3}}
 ***************
 > _‘All researchers work with data and/or datasets, but what you call data will depend on your discipline. As a humanities scholar you might talk about your primary sources or texts. If your research is in a social science, you may think in terms of survey results, interviews and statistics. You will probably have different terms again for the outputs of your experiments and observations if you are a scientist.’_
 >
@@ -294,14 +216,14 @@ What is research data?
 
 ### Research Data Management
 
-{{0-3}}
+{{0}}
 ****************
 
 What is research data management?
 ---
 ****************
 
-{{1-3}}
+{{1}}
 ****************
 > ‘Research data management is an explicit process covering the creation and stewardship of research materials to enable their use for as long as they retain value.’
 >
@@ -309,7 +231,7 @@ What is research data management?
 
 ****************
 
-{{2-3}}
+{{2}}
 ****************
 > ‘Research Data Management (RDM) is the methodical handling of the information produced or re-used during the course of academic research.’
 >
@@ -381,27 +303,6 @@ What is research data management?
 * When can the research data expected to be used by third parties?
 
 ************
-
-{{5}}
-************
-
-![RD-Lifecycle](images\FDM_Zyklus_klein_ohneText.jpg) <!-- width="300px" align="right" -->
-
-Individual work:
----
-
-Think about your own PhD project and add keywords to the stations of the research data lifecycle that describe what steps and procedures at each station are relevant to your research data.
-
-Find a workspace at the [Miro-Board](https://miro.com/app/board/uXjVPvwAFbI=/?moveToWidget=3458764570165589491&cot=14)
-
--> Does this research data lifecycle fit to your research project?
-
--> Are there any deviations? If yes, please mark deviations.
-
-************
-
-<div style="page-break-after: always;"></div>
-
 
 ## FAIR Data Principles
 
@@ -519,12 +420,12 @@ style="width: 20%; max-width: 800px; float:right"
 title="working"
 onclick="alert('working');"
 -->
->You will be assigned to group F, A, I, or R. Think about your own projects and evaluate the handling of research data against the one principle you have been assigned to. Compare with the video. Do scenes in the video look familiar to you?
+> Think about your own projects and evaluate the handling of research data. Compare with the video. Do scenes in the video look familiar to you?
 >
 >- Where do you (or all of us) need to improve?
 >- What do you need (e. g. knowledge, tools, methods) in order to comply with the FAIR principles?
 >
->Use the Miro-Board to take notes: https://miro.com/app/board/uXjVPvwAFbI=/?moveToWidget=3458764555145308718&cot=14
+> Use the Miro-Board to take notes: https://miro.com/app/board/uXjVPvwAFbI=/?moveToWidget=3458764555145308718&cot=14
 
 ****************
 
@@ -668,7 +569,7 @@ onclick="alert('working');"
 
 ********************************************************************************
 
-{{1-2}}
+{{1}}
 ****************************************
 
 >**Example for a file name following a naming convention**
@@ -678,18 +579,6 @@ onclick="alert('working');"
 >Rebel-Hunting\_Interview\_DS-1-Orbital-Battle-Station\_Organa\_1976-05-25.mp4
 
 ****************************************
-
-{{2}}
-****************************************
-
->**Why [***ISO 8601***](https://en.wikipedia.org/wiki/ISO_8601) for dates and times?**
->
->>- **Kristall\_765\_spektr\_2016-12-03.csv**
->>- **Kristall\_765\_spektr\_16-12-03.csv**
-
-****************************************
-
-<div style="page-break-after: always;"></div>
 
 
 ## Data documentation
@@ -705,15 +594,15 @@ title="group-work"
 onclick="alert('Let´s work together!');"
 -->
 >
->You are working in a research group working on the ecology of forests and take over data from a previous project: <A HREF="sources/average_d.xlsx" download>average_d.xlsx</A>
+> You are working in a research group working on the ecology of forests and take over data from a previous project: <A HREF="sources/average_d.xlsx" download>average_d.xlsx</A>
 >
->* Speculate what kind of data it could be.
+> * Speculate what kind of data it could be.
 >
->Discuss and take notes
+> Discuss and take notes
 >
->* Apart from the data itself, what information do you need to be able to work with a dataset?
+> * Apart from the data itself, what information do you need to be able to work with a dataset?
 >
->* What do you notice in regard of data quality?
+> * What do you notice in regard of data quality?
 
 *********
 
@@ -762,30 +651,6 @@ onclick="alert('Let´s work together!');"
 
 **************
 
-<div style="page-break-after: always;"></div>
-
-{{2-4}}
-********************************************************************************
-
->**Short research assignment**:
->
->Which guideline of the **DFG Guidelines for Good Scientific Practice** deals with ***documentation***?
-
-********************************************************************************
-
-{{3-4}}
-********************************************************************************
-
-><p style="color:#9a047f">**Guideline 12: Documentation**
-„Scientists and scholars shall document all information relevant to the achievement of a research result as comprehensibly as it is necessary and appropriate in the concerned scientific field in order to be able to verify and evaluate the result. […]“
-</p>
->
-><P><SMALL>Deutsche Forschungsgemeinschaft. (2019). Leitlinien zur guten wissenschaftlichen Praxis. Kodex. http://doi.org/10.5281/zenodo.3923602, S. 17.  
-</SMALL></P>
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
 
 ### Metadata
 
@@ -833,56 +698,9 @@ Metdata is...
 <div style="page-break-after: always;"></div>
 
 
-
-### Mandatory Metadata
-
->**Individual work**:
->![image](images/working.png) <!--
-style="width: 20%; max-width: 800px; float:right"
-title="working"
-onclick="alert('Data documentation');"
--->
->
->Do you know the [Kiel University research data repository](https://opendata.uni-kiel.de/content/index.xml)?
->
->Go to
->https://opendata.uni-kiel.de/content/publish/metadata.xml?lang=en
->
->* Which metadata is mandatory?
->
->* Is this information sufficient to understand your research data?
-
-
-<div style="page-break-after: always;"></div>
-
-
 ## File formats
-{{0-1}}
-*************
->**Group work**:
->![image](images\kurzberichte.png)<!--
-style="width: 20%; max-width: 800px; float:right"
-title="puzzle"
-onclick="alert('Let´s work together!');"
--->
->
-> Let us collect all file formats you are working with.
->
->Post all file formats you are working with into the answergarden:
->
->https://answergarden.ch/3931685
 
-*************
-
-{{1}}
-*************
-
-<iframe src="https://answergarden.ch/3931685" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-
-*************
-<div style="page-break-after: always;"></div>
-
-### Choosing file formats
+**Choosing file formats**
 
 >-> Non-Proprietary, unencrypted, uncompressed and commonly used
 >
@@ -904,17 +722,8 @@ onclick="alert('Let´s work together!');"
 
 ## Back up & long-term storage
 
-{{0}}
-Where do you store your data?
----
+**********
 
-<div style="float:right; width:40%;">
-  <img src="images/backup.png" alt="No back up? No mercy!">
-</div>
-
-
-{{1}}
-****************
 > **Recommendations for your back up**
 >
 >- At least 3 copies of a file
@@ -953,83 +762,6 @@ How do your store your (sensitive) data?
 
 <div style="page-break-after: always;"></div>
 
-
-
-## Openess of Data
-
-* Open Access
-
-* Open Data
-
-* Open Educational Resources
-
-* Open Source Research Software
-
-* Open Methodology
-
-* Citizen Science
-
-* ...
-
-
-<div style="page-break-after: always;"></div>
-
-### Open Access
-
->"Open access is the term given to access granted to research publications and other materials online free of charge. A research document published under open access conditions may be read, downloaded, saved, linked to, printed and used by anybody at no cost."
->
->Source: [DFG](https://www.dfg.de/en/research_funding/programmes/infrastructure/lis/open_access/what_is_open_access/index.html)
-
-<div style="float:left; width:80%;">
-**Open access** contributions are often represented with the help of an open lock.
-
-- Distribution of research output online, __freely available__ for everyone
-
-  - __no restrictions__ for use und republication
-
-  - In practice: __attribution__ to the original author or creator
-
-- Formerly only open publication of journal articles, papers, etc.
-
-</div>
-
-<div style="float:right; width:10%;">
-![Open Access](images\access.png)
-</div>
-
-
-### Open Data
-
->"Open data are data that have been made available for free use, re-use and dissemination. They can comprise any kind of data from learning materials to geographical data, statistics, traffic data, academic publications, medical data, radio and tv broadcasts.
->
->In oder to mark data as "open", different choices of license are available. Data with restrictive licences, which limit use by prohibiting derivatives or commercial use, do not strictly count as "open data" even though they can certainly improve the academic exchange of ideas." (https://forschungsdaten.info/praxis-kompakt/english-pages/open-data-open-access-and-re-using-data/)
-
------
-
-- Open Data
-
-  - Publication of data without legal or technical restrictions
-  - for use, re-use and dissemination
-  - __Indispensable__ for data science
-  - Generic __non-proprietary__ formats
-  - different types of data as well as __Metadata__
-
------
-
-{{1}}
-********************
-
->**What do you think?**
->
->$$
-OPEN
-=
-FAIR\, ?
-$$
-
-********************
-
-<div style="page-break-after: always;"></div>
 
 ### Licenses
 {{0-1}}
@@ -1070,18 +802,6 @@ Selection of the license depends on the type of data:
 
 {{2-3}}
 ******************
-> **ODC-Licenses**
-
-<div style="width:100%;">
-  <img src="images/odc-licences.png" alt="odc-licences.png">
-</div>
-
-*********************
-
-<div style="page-break-after: always;"></div>
-
-{{3-4}}
-************
 **Take care!**
 
 >$$
@@ -1093,103 +813,6 @@ $$
 ********************
 
 <div style="page-break-after: always;"></div>
-
-
-## Data publication
-
- How to publish and share your data?
-----
-
-{{1}}
-********************
-> Supplement to a peer-reviewed article ("enhanced publication")
-********************
-
-{{2-3}}
-****************
-- as a supplement to the associated article
-- as a data set in a repository with a link to the corresponding article.
-
-Example:
-
-<div style="width:100%;">
-  <img src="images/Example_R-R-Article.jpg" alt="Example R-R-Article">
-</div>
-
-**********************
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************
-> Independent information object in a research data repository
-********************
-
-{{3-4}}
-********************
-
-* Discipline-specific repositories, e.g. [Datorium](https://data.gesis.org/sharing/#!Home), [Pangaea](https://www.pangaea.de/)
-
-* cross-disciplinary repositories, e.g. [ZENODO](https://zenodo.org/)
-
-* institutional repositories, e.g. [Refubium](https://www.fu-berlin.de/sites/open_access/refubium/index.html), [opendata@uni-kiel.de](https://opendata.uni-kiel.de/content/index.xml)
-
-Example:
-
-<div style="float:left; width:45%;">
-<img src="images/Example_Pangaea.jpg" alt="Example R-R-Article">
-<sub>Source: https://www.pangaea.de/, Zugriff 10.02.2021</sub>
-
-</div>
-
-<div style="float:right; width:45%;">
-
-<div style="width:100%;">
-  <img src="images/Example_Zenodo.jpg" alt="Example Zenodo">
-  <sub>Source: https://zenodo.org/, Zugriff 10.02.2021</sub>
-</div>
-
-</div>
-
-*********************
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************
-> Data journals
-
-********************
-
-{{4-5}}
-***************************
-
-- publish detailed description of data
-
-- partly peer-reviewed
-
-Example:
-
-<div style="float:left; width:45%;">
-<img src="images/example-ESSdata.png" alt="Example Data journal">
-<sub>Source: https://www.earth-system-science-data.net, Zugriff 10.02.2021</sub>
-
-</div>
-
-<div style="float:right; width:45%;">
-
-<div style="width:100%;">
-  <img src="images/example-datainbrief.png" alt="Example Data journal">
-  <sub>Source: https://www.journals.elsevier.com/data-in-brief, Zugriff 10.02.2021</sub>
-</div>
-
-</div>
-
-***************************
-
-<div style="page-break-after: always;"></div>
-
-
 
 
 ## Take-Away Messages
