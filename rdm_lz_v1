@@ -131,7 +131,7 @@ draw("@0", `@input`)
 </div>
 
 
-At the end of the workshop you should…
+At the end of the workshop you…
 
 <div style="float:left; width:60%;">
   <p>
@@ -156,6 +156,33 @@ At the end of the workshop you should…
 
 <div style="page-break-after: always;"></div>
 
+## Movie time!📽️😀
+
+{{0-1}}
+****************
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+****************
+
+{{1}}
+****************
+
+>__Let´s discuss!__
+>![image](images/working.png)<!--
+style="width: 20%; max-width: 800px; float:right"
+title="working"
+onclick="alert('working');"
+-->
+> Think about your own projects and recent work. Do scenes in the video look familiar to you?
+>
+
+
+****************
+
+<div style="page-break-after: always;"></div>
 
 ## Research data management
 
@@ -303,133 +330,6 @@ What is research data management?
 * When can the research data expected to be used by third parties?
 
 ************
-
-## FAIR Data Principles
-
-{{0-1}}
-****************
-
-<div style="width:50%;">
-  <img src="images/fair2.jpg" alt="targets">
-  <sub><span style="text-align: right;">Illustration: Patrick Hochstenbach in Engelhardt, Claudia et. al. (2021)</span></sub>
-</div>
-
-****************
-
-{{1-2}}
-> An important goal of research data management is to keep data 
->
->🔍 **F**indable,
->
->🔐 **A**ccessible,
->
->🔗 **I**nteroperable and
->
->♻️ **R**eusable
->
->in the ~~long term~~ and ~~independent of individuals~~.
-
-
-<div style="page-break-after: always;"></div>
-
-{{2}}
->**F**indable
-
-{{3-4}}
-****************
-The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.
-
-F1. (Meta)data are assigned a globally unique and persistent identifier
-
-F2. Data are described with rich metadata (defined by R1 below)
-
-F3. Metadata clearly and explicitly include the identifier of the data they describe
-
-F4. (Meta)data are registered or indexed in a searchable resource
-
-***************
-
-{{2}}
->**A**ccessible
-
-{{4-5}}
-***********************
-Once the user finds the required data, the user needs to know how data can be accessed, including authentication and authorisation.
-
-A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
-
-A1.1 The protocol is open, free, and universally implementable
-
-A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-
-A2. Metadata are accessible, even when the data are no longer available
-
-******************
-
-{{2}}
->**I**nteroperable
-
-{{5-6}}
-**********************
-The data usually needs to be integrated with other data. In addition, the data needs to interoperate with applications or workflows for analysis, storage, and processing.
-
-I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
-
-I2. (Meta)data use vocabularies that follow FAIR principles
-
-I3. (Meta)data include qualified references to other (meta)data
-
-**********************
-
-{{2}}
->**R**eusable
-
-{{6-7}}
-***************
-The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be understood, replicated and/or combined in different settings.
-
-R1. Meta(data) are richly described with a plurality of accurate and relevant attributes
-
-R1.1. (Meta)data are released with a clear and accessible data usage license
-
-R1.2. (Meta)data are associated with detailed provenance
-
-R1.3. (Meta)data meet domain-relevant community standards
-
-**************
-
-<div style="page-break-after: always;"></div>
-
-### Movie time!📽️😀
-
-{{0-1}}
-****************
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-****************
-
-{{1}}
-****************
-
->__Let´s discuss!__
->![image](images/working.png)<!--
-style="width: 20%; max-width: 800px; float:right"
-title="working"
-onclick="alert('working');"
--->
-> Think about your own projects and evaluate the handling of research data. Compare with the video. Do scenes in the video look familiar to you?
->
->- Where do you (or all of us) need to improve?
->- What do you need (e. g. knowledge, tools, methods) in order to comply with the FAIR principles?
->
-> Use the Miro-Board to take notes: https://miro.com/app/board/uXjVPvwAFbI=/?moveToWidget=3458764555145308718&cot=14
-
-****************
-
-<div style="page-break-after: always;"></div>
 
 ## Data organisation
 {{0-1}}
@@ -581,6 +481,29 @@ onclick="alert('working');"
 ****************************************
 
 
+## File formats
+
+**Choosing file formats**
+
+>-> Non-Proprietary, unencrypted, uncompressed and commonly used
+>
+>-> Open-standard-compliant, documented and royalty-free
+
+| Data Type    | Recommended | Trade-off Matter | Not Recommented |
+| ------------ | ----------- | ---------------- | --------------- |
+| Tabular      | CSV, TSV, ODS| XLSX, SPSS portable| XLS, SPSS |
+| Textual      |TXT, MD, HTML, ODT | DOCX, RTF, PDF/A | DOC, PDF, PS |
+| Presentation | ODP, HTML   |  PPTX            |   PPT           |
+| video        |MP4, MKV, OGG|  WEBM            | WMV, MOV, QT, Flash|
+| Audio        | MP4, FLAC, WAV, OGG | MP3, AIF |                 |
+| Image        | TIFF, PNG   |  BMP, JPG        |   PSD, GIF      |
+| Vector       |  SVG        |                  |     AI          |
+| Generic      |  XML, JSON, RDF |              |                 |
+| Container    | Bagit, Frictionless, Data Package| ZIP, TAR |      |
+
+<div style="page-break-after: always;"></div>
+
+
 ## Data documentation
 
 {{0-2}}
@@ -594,7 +517,7 @@ title="group-work"
 onclick="alert('Let´s work together!');"
 -->
 >
-> You are working in a research group working on the ecology of forests and take over data from a previous project: <A HREF="sources/average_d.xlsx" download>average_d.xlsx</A>
+> You are working in a research group working on the ecology of forests and take over data from a previous project: <A HREF="images/average_d.xlsx" download>average_d.xlsx</A>
 >
 > * Speculate what kind of data it could be.
 >
@@ -698,27 +621,6 @@ Metdata is...
 <div style="page-break-after: always;"></div>
 
 
-## File formats
-
-**Choosing file formats**
-
->-> Non-Proprietary, unencrypted, uncompressed and commonly used
->
->-> Open-standard-compliant, documented and royalty-free
-
-| Data Type    | Recommended | Trade-off Matter | Not Recommented |
-| ------------ | ----------- | ---------------- | --------------- |
-| Tabular      | CSV, TSV, ODS| XLSX, SPSS portable| XLS, SPSS |
-| Textual      |TXT, MD, HTML, ODT | DOCX, RTF, PDF/A | DOC, PDF, PS |
-| Presentation | ODP, HTML   |  PPTX            |   PPT           |
-| video        |MP4, MKV, OGG|  WEBM            | WMV, MOV, QT, Flash|
-| Audio        | MP4, FLAC, WAV, OGG | MP3, AIF |                 |
-| Image        | TIFF, PNG   |  BMP, JPG        |   PSD, GIF      |
-| Vector       |  SVG        |                  |     AI          |
-| Generic      |  XML, JSON, RDF |              |                 |
-| Container    | Bagit, Frictionless, Data Package| ZIP, TAR |      |
-
-<div style="page-break-after: always;"></div>
 
 ## Back up & long-term storage
 
@@ -763,7 +665,7 @@ How do your store your (sensitive) data?
 <div style="page-break-after: always;"></div>
 
 
-### Licenses
+## Licenses
 {{0-1}}
 *******************
 - Licenses regulate conditions of subsequent use of published data.
@@ -813,6 +715,104 @@ $$
 ********************
 
 <div style="page-break-after: always;"></div>
+
+
+## FAIR Data Principles
+
+{{0-1}}
+****************
+
+<div style="width:50%;">
+  <img src="images/fair2.jpg" alt="targets">
+  <sub><span style="text-align: right;">Illustration: Patrick Hochstenbach in Engelhardt, Claudia et. al. (2021)</span></sub>
+</div>
+
+****************
+
+{{1-2}}
+> An important goal of research data management is to keep data 
+>
+>🔍 **F**indable,
+>
+>🔐 **A**ccessible,
+>
+>🔗 **I**nteroperable and
+>
+>♻️ **R**eusable
+>
+>in the ~~long term~~ and ~~independent of individuals~~.
+
+
+<div style="page-break-after: always;"></div>
+
+{{2}}
+>**F**indable
+
+{{3-4}}
+****************
+The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.
+
+F1. (Meta)data are assigned a globally unique and persistent identifier
+
+F2. Data are described with rich metadata (defined by R1 below)
+
+F3. Metadata clearly and explicitly include the identifier of the data they describe
+
+F4. (Meta)data are registered or indexed in a searchable resource
+
+***************
+
+{{2}}
+>**A**ccessible
+
+{{4-5}}
+***********************
+Once the user finds the required data, the user needs to know how data can be accessed, including authentication and authorisation.
+
+A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
+
+A1.1 The protocol is open, free, and universally implementable
+
+A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+
+A2. Metadata are accessible, even when the data are no longer available
+
+******************
+
+{{2}}
+>**I**nteroperable
+
+{{5-6}}
+**********************
+The data usually needs to be integrated with other data. In addition, the data needs to interoperate with applications or workflows for analysis, storage, and processing.
+
+I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+
+I2. (Meta)data use vocabularies that follow FAIR principles
+
+I3. (Meta)data include qualified references to other (meta)data
+
+**********************
+
+{{2}}
+>**R**eusable
+
+{{6-7}}
+***************
+The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be understood, replicated and/or combined in different settings.
+
+R1. Meta(data) are richly described with a plurality of accurate and relevant attributes
+
+R1.1. (Meta)data are released with a clear and accessible data usage license
+
+R1.2. (Meta)data are associated with detailed provenance
+
+R1.3. (Meta)data meet domain-relevant community standards
+
+**************
+
+<div style="page-break-after: always;"></div>
+
 
 
 ## Take-Away Messages
