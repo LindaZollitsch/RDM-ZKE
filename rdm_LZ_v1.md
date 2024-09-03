@@ -351,11 +351,11 @@ What is research data management?
 
 {{1}}
 ****************
->Measures in research data management serve to improve findability and traceability of research data and to avoid data loss with the aim of increasing the (person-independent) **re-usability** of research data.
+>* Measures in research data management serve to improve findability and traceability of research data and to avoid data loss with the aim of increasing the (person-independent) **re-usability** of research data.
 >
->**The first person to want to re-use your own data may be yourself**! Store, name and document your own data in such a way that you can find, understand and re-use it as easily as possible.
+>* **The first person to want to re-use your own data may be yourself**! Store, name and document your own data in such a way that you can find, understand and re-use it as easily as possible.
 >
->Always store, name and document your data in such a way that you minimise the risk of data loss.
+>* Always store, name and document your data in such a way that you minimise the risk of data loss.
 
 ****************
 
@@ -556,12 +556,6 @@ onclick="alert('Let´s work together!');"
 </p>
 
 
-</div>
-
-<div style="float:right; width:40%;">
-  <img src="images\datadocumentation.png" alt="figures hugging">
-</div>
-
 **************
 
 
@@ -614,7 +608,7 @@ Metdata is...
 
 ## Back up & long-term storage
 
-**********
+
 
 > **Recommendations for your back up**
 >
@@ -623,13 +617,13 @@ Metdata is...
 >- At least one of which is remote
 >- Test data recovery at the beginning and at regular intervals.
 
+
+{{1}}
+****************
+How do your store your (sensitive) data?
 ****************
 
 {{2}}
-How do your store your (sensitive) data?
----
-
-{{3}}
 ****************
 > **Protect your (sensitive) data**:
 >
