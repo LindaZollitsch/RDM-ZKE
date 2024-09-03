@@ -131,18 +131,18 @@ draw("@0", `@input`)
 </div>
 
 
-At the end of the workshop you…
+At the end of the workshop you can…
 
 <div style="float:left; width:60%;">
   <p>
 
-- can describe the research data lifecycle.
+- describe the research data lifecycle.
 
-- can explain the importance of FAIR.
+- explain the importance of FAIR.
 
-- can explain the importance of documentation and can describe what metadata are.
+- explain the importance of documentation and can describe what metadata are.
 
-- can identify and assess data formats.
+- identify and assess data formats.
 
 
 </p>
@@ -179,10 +179,10 @@ onclick="alert('working');"
 > Think about your own projects and recent work. Do scenes in the video look familiar to you?
 >
 
-
 ****************
 
 <div style="page-break-after: always;"></div>
+
 
 ## Research data management
 
@@ -352,11 +352,9 @@ What is research data management?
 ****************
 >Measures in research data management serve to improve findability and traceability of research data and to avoid data loss with the aim of increasing the (person-independent) **re-usability** of research data.
 >
->**The first person to want to re-use your own data may be yourself**!
+>**The first person to want to re-use your own data may be yourself**! Store, name and document your own data in such a way that you can find, understand and re-use it as easily as possible.
 >
 >Always store, name and document your data in such a way that you minimise the risk of data loss.
->
->Always think of your future self! Store, name and document your own data in such a way that you can find, understand and re-use it as easily as possible.
 
 ****************
 
@@ -380,9 +378,7 @@ What is research data management?
 
   - Folders in hierarchical order with the most important first.
 
-  - Limit yourself to a maximum of three folder levels, ensure a maximum path length of 256 characters.
-
-  - Keep your personal preferences in mind during development, e.g. for ___sorting!___
+  - Ensure a maximum path length of 256 characters.
 
 ********************************************************************************
 
@@ -397,7 +393,7 @@ What is research data management?
 {{3-4}}
 ********************************************************************************
 
-- Always avoid spaces and all special characters (including special letters, such as german umlauts).
+- Avoid spaces and special characters (including special letters, such as ö, ä, ü, å, â, é, ş, ž).
 
   - The following characters in particular should **NOT** be used in folder or file names:
 
@@ -423,28 +419,21 @@ What is research data management?
 
 ********************************************************************************
 
-{{4-7}}
+{{4-6}}
 ********************************************************************************
 
 - Prefix consecutive numbers with a sufficient number of zeros (e.g. 001 for numbering from 1 to 100)
 
 ********************************************************************************
 
-{{5-7}}
+{{5-6}}
 ********************************************************************************
 
 - Use only one dot per file name -> between the file name and format suffix (e.g. filename.txt)
 
 ********************************************************************************
 
-{{6-7}}
-********************************************************************************
-
-- Upper and lower case is considered different by some file systems, but not by others.  
-
-********************************************************************************
-
-{{7}}
+{{6}}
 ********************************************************************************
 
 - ***Document*** your folder structures as well as the naming conventions and abbreviations used!
@@ -702,7 +691,7 @@ Selection of the license depends on the type of data:
 
 <div style="page-break-after: always;"></div>
 
-{{2-3}}
+{{2}}
 ******************
 **Take care!**
 
