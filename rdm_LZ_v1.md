@@ -163,7 +163,6 @@ At the end of the workshop you can…
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
----
 
 ****************
 
@@ -192,7 +191,9 @@ onclick="alert('working');"
 ********************************************************************************
 
 What is research data?
----
+
+********************************************************************************
+
 
 {{1}}
 ********************************************************************************
@@ -247,7 +248,7 @@ What is research data?
 ****************
 
 What is research data management?
----
+
 ****************
 
 {{1}}
