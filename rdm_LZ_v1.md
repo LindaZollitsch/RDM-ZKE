@@ -518,8 +518,6 @@ onclick="alert('Let´s work together!');"
 {{2}}
 *********
 
-<div style="float:left; width:60%;">
-
   **A good data documentation should include**
 
   - Information on the collection of data
@@ -548,6 +546,7 @@ onclick="alert('Let´s work together!');"
 
 **************
 
+<div style="page-break-after: always;"></div>
 
 ## Metadata
 
