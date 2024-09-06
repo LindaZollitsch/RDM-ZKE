@@ -99,8 +99,6 @@ draw("@0", `@input`)
 
 # RDM@ZKE
 
-## Welcome
-
 >**Thilo Paul-Stüve, Britta Petersen, Linda Zollitsch**
 >
 >Central Research Data Management of Kiel University
