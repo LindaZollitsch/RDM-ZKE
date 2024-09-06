@@ -551,11 +551,14 @@ onclick="alert('Let´s work together!');"
 
 ## Metadata
 
+{{1}}
+*********
 **What is Metadata?**
 
+*********
 
 
-{{1}}
+{{2}}
 *********
 ![image](images/datadocumentation.png) <!--
 style="width: 20%; max-width: 800px; float:right"
