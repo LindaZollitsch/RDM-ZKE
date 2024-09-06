@@ -519,7 +519,6 @@ onclick="alert('Let´s work together!');"
 *********
 
 <div style="float:left; width:60%;">
-  <p>
 
   **A good data documentation should include**
 
@@ -547,20 +546,15 @@ onclick="alert('Let´s work together!');"
 
       - Hypotheses
 
-</p>
-
-
 **************
 
 
 ### Metadata
 
-{{0}}
-*********
 
-<big>What is Metadata?</big>
+**What is Metadata?**
 
-*********
+
 
 {{1}}
 *********
