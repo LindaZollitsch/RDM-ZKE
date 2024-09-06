@@ -491,9 +491,9 @@ What is research data management?
 
 ## Data documentation
 
+
 {{1-2}}
 *********
-
 >**Group work**:
 >
 >![image](images\kurzberichte.png)<!--
