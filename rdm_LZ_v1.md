@@ -491,7 +491,7 @@ What is research data management?
 
 ## Data documentation
 
-{{0-1}}
+{{1-2}}
 *********
 
 >**Group work**:
@@ -515,7 +515,7 @@ onclick="alert('Let´s work together!');"
 *********
 
 
-{{1}}
+{{2}}
 *********
 
 <div style="float:left; width:60%;">
