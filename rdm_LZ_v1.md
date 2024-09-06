@@ -125,16 +125,18 @@ draw("@0", `@input`)
 
 ## Goals today
 
-<div style="float:right; width:40%;">
-  <img src="images/BeNice.jpg" alt="figures hugging">
-    <sub style="text-align: right;">Source: Pixabay</sub>
-</div>
-
+-----
 
 At the end of the workshop you can…
 
-<div style="float:left; width:60%;">
-  <p>
+
+
+<div style="float:right; width:30%;">
+  <img src="images/Zielscheibe-mit-Pfeil.png" alt="targets">
+  <sub><span style="text-align: right;">Source: Cleo Michelsen</span></sub>
+</div>
+
+
 
 - describe the research data lifecycle.
 
@@ -142,17 +144,8 @@ At the end of the workshop you can…
 
 - explain the importance of documentation and can describe what metadata are.
 
-- identify and assess data formats.
+- describe data formats.
 
-
-</p>
-
-</div>
-
-<div style="float:right; width:30%;">
-  <img src="images/Zielscheibe-mit-Pfeil.png" alt="targets">
-  <sub><span style="text-align: right;">Source: Cleo Michelsen</span></sub>
-</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -351,7 +344,7 @@ What is research data management?
 
 {{1}}
 ****************
->* Measures in research data management serve to improve findability and traceability of research data and to avoid data loss with the aim of increasing the (person-independent) **re-usability** of research data.
+>* Research data management fosters to improve findability and traceability of research data and to avoid data loss with the aim of increasing the (person-independent) **re-usability** of research data.
 >
 >* **The first person to want to re-use your own data may be yourself**! Store, name and document your own data in such a way that you can find, understand and re-use it as easily as possible.
 >
@@ -496,7 +489,7 @@ What is research data management?
 
 ## Data documentation
 
-{{0-2}}
+{{0-1}}
 *********
 
 >**Group work**:
@@ -519,9 +512,8 @@ onclick="alert('Let´s work together!');"
 
 *********
 
-<div style="page-break-after: always;"></div>
 
-{{1-2}}
+{{1}}
 *********
 
 <div style="float:left; width:60%;">
